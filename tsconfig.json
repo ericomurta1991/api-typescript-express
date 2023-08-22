@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+   
+    "target": "es2019",                                  
+    "module": "commonjs",                               
+    "rootDir": "src",                                  
+    "moduleResolution": "node",                    
+    "rootDirs": [],                                   
+    "typeRoots": [
+      "/src/@types",
+      "/node_modules/@types"
+    ],                                                   
+    "outDir": "./dist",                                   
+    "removeComments": true,                           
+    
+  
+    "esModuleInterop": true,                            
+    // "preserveSymlinks": true,                         
+    "forceConsistentCasingInFileNames": true,            
+
+    /* Type Checking */
+    "strict": true,                                      
+    "skipLibCheck": true                                 
+  }
+}
